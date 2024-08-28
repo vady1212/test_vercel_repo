@@ -8,6 +8,14 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/src/views/page1/template.html"
+    },
+    {
+      "src": "/page2",
+      "dest": "/src/views/page2/template.html"
     }
   ]
 }
